@@ -13,6 +13,7 @@
 		E0B4B763260C109000797686 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B4B762260C109000797686 /* Preview Assets.xcassets */; };
 		E0B4B76E260C109100797686 /* ScratchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B4B76D260C109100797686 /* ScratchPadTests.swift */; };
 		E0B4B779260C109100797686 /* ScratchPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B4B778260C109100797686 /* ScratchPadUITests.swift */; };
+		E0E04149260C1A5D00209EB0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E04148260C1A5D00209EB0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E0B4B774260C109100797686 /* ScratchPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B4B778260C109100797686 /* ScratchPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPadUITests.swift; sourceTree = "<group>"; };
 		E0B4B77A260C109100797686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E04148260C1A5D00209EB0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				E0B4B75B260C108F00797686 /* ScratchPadApp.swift */,
 				E0B4B75D260C108F00797686 /* ContentView.swift */,
+				E0E04148260C1A5D00209EB0 /* Person.swift */,
 				E0B4B75F260C109000797686 /* Assets.xcassets */,
 				E0B4B764260C109000797686 /* Info.plist */,
 				E0B4B761260C109000797686 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E04149260C1A5D00209EB0 /* Person.swift in Sources */,
 				E0B4B75E260C108F00797686 /* ContentView.swift in Sources */,
 				E0B4B75C260C108F00797686 /* ScratchPadApp.swift in Sources */,
 			);
